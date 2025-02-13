@@ -43,7 +43,7 @@ export default function ExperienceSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          Where i have been.
+          WHERE I HAVE BEEN 
         </motion.h2>
 
         <div className="space-y-8">
