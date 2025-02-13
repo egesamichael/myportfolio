@@ -4,13 +4,15 @@ import { motion } from 'framer-motion';
 import { 
   SiNextdotjs, SiReact, SiGit, SiNodedotjs, SiExpress, 
   SiBootstrap, SiTailwindcss, SiLaravel, SiMongodb, 
-  SiSupabase, SiFirebase 
+  SiSupabase, SiFirebase, SiExpo 
 } from 'react-icons/si';
 
 // Technology data with icons
 const technologies = [
   { name: 'Next.js', icon: <SiNextdotjs /> },
   { name: 'React Native', icon: <SiReact /> },
+  { name: 'React', icon: <SiReact /> },
+  { name: 'Expo', icon: <SiExpo /> },
   { name: 'Git', icon: <SiGit /> },
   { name: 'Node.js', icon: <SiNodedotjs /> },
   { name: 'Express', icon: <SiExpress /> },
@@ -20,6 +22,7 @@ const technologies = [
   { name: 'MongoDB', icon: <SiMongodb /> },
   { name: 'Supabase', icon: <SiSupabase /> },
   { name: 'Firebase', icon: <SiFirebase /> },
+
 ];
 
 export default function TechnologiesSection() {
