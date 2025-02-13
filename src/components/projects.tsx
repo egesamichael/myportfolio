@@ -32,6 +32,13 @@ const projects = [
     link: "https://github.com/yourusername/whatsapp-chatbot",
   },
   {
+    title: "Print It App",
+    description: "A mobile app that allows users to print their documents easily.",
+    category: "App",
+    technologies: ["React Native", "Expo"],
+    link: "#",
+  },
+  {
     title: "momo-payment-lib",
     description: "A library for integrating Momo payment services.",
     category: "Library",
