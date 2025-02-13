@@ -32,7 +32,7 @@ export default function TechnologiesSection() {
         transition={{ duration: 0.5 }}
       >
         <h2 className="text-4xl font-bold text-gray-900 mb-10">
-          TOOLS I LIKE
+          TOOLS I LIKE.
         </h2>
       </motion.div>
 
