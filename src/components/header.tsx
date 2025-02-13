@@ -30,9 +30,11 @@ export default function Header() {
               <li key={item} className="w-full lg:w-auto">
                 <a
                   href="#"
-                  className="block text-base font-bold text-gray-800 hover:text-blue-700 bg-transparent hover:bg-gray-100 px-4 py-2 rounded-md transition duration-200"
+                  className="menu-item relative block text-base font-bold text-gray-800 hover:text-blue-700 bg-transparent hover:bg-gray-100 px-4 py-2 rounded-md transition duration-200"
                 >
                   {item}
+                  {/* Border animation on hover */}
+                  <span className="absolute inset-0 border-2 border-transparent rounded-md transition-all duration-300 group-hover:border-blue-600"></span>
                 </a>
               </li>
             ))}
