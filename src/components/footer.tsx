@@ -1,17 +1,18 @@
 import React from 'react';
+import { FaGithub, FaLinkedin, FaXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-8">
+    <footer className="bg-black text-white py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Contact Info */}
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
             <ul>
-              <li>Email: <a href="mailto:info@praisewebsolutions.com" className="text-blue-400 hover:text-blue-300">info@praisewebsolutions.com</a></li>
-              <li>Phone: <a href="tel:+256701234567" className="text-blue-400 hover:text-blue-300">+256 701 234 567</a></li>
-              <li>Address: 1234 Main St, Kampala, Uganda</li>
+              <li>Email: <a href="mailto:egesa@praisewebsolutions.com" className="text-blue-400 hover:text-blue-300">egesa@praisewebsolutions.com</a></li>
+              <li>Phone: <a href="tel:+256702485697" className="text-blue-400 hover:text-blue-300">+256 702 485 697</a></li>
+              <li>Address: Kampala, Uganda</li>
             </ul>
           </div>
 
@@ -20,18 +21,18 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
             <ul className="flex space-x-4">
               <li>
-                <a href="https://facebook.com/praisewebsolutions" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">
-                  Facebook
+                <a href="https://github.com/praisewebsolutions" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 text-2xl">
+                  <FaGithub />
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/praisewebsolutions" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">
-                  Twitter
+                <a href="https://linkedin.com/company/praisewebsolutions" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 text-2xl">
+                  <FaLinkedin />
                 </a>
               </li>
               <li>
-                <a href="https://linkedin.com/company/praisewebsolutions" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">
-                  LinkedIn
+                <a href="https://twitter.com/praisewebsolutions" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 text-2xl">
+                  <FaXTwitter />
                 </a>
               </li>
             </ul>
@@ -42,10 +43,10 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul>
               <li>
-                <a href="/about" className="text-blue-400 hover:text-blue-300">About Us</a>
+                <a href="/about" className="text-blue-400 hover:text-blue-300">About Me</a>
               </li>
               <li>
-                <a href="/services" className="text-blue-400 hover:text-blue-300">Services</a>
+                <a href="#" className="text-blue-400 hover:text-blue-300">CV</a>
               </li>
               <li>
                 <a href="/contact" className="text-blue-400 hover:text-blue-300">Contact</a>
@@ -76,7 +77,7 @@ const Footer = () => {
 
         {/* Footer Bottom */}
         <div className="text-center mt-8">
-          <p className="text-sm text-gray-400">&copy; {new Date().getFullYear()} Praise Web Solutions. All Rights Reserved.</p>
+          <p className="text-sm text-gray-400">&copy; {new Date().getFullYear()} All Rights Reserved.</p>
         </div>
       </div>
     </footer>

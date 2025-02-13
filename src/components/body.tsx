@@ -3,7 +3,7 @@ import TechnologiesSection from "./techstack";
 
 export default function Main() {
   return (
-    <div className="flex flex-wrap gap-8 px-10 py-4 max-w-7xl mx-auto">
+    <div className="flex flex-wrap gap-2 py-16 max-w-7xl mx-auto">
       {/* Left side: Experience */}
       <div className="flex-1 min-w-[300px]">
         <ExperienceSection />
