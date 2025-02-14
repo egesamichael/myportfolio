@@ -1,6 +1,6 @@
 "use client";
 
-import { Github, Twitter, Linkedin } from "lucide-react"; // Import icons
+import { Github, Twitter, Linkedin, X } from "lucide-react"; // Import icons
 
 export default function Hero() {
   return (
@@ -35,7 +35,7 @@ export default function Hero() {
             <Github size={24} className="text-gray-800 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-200" />
           </a>
           <a href="https://x.com/egesamicheal" target="_blank" rel="noopener noreferrer">
-            <Twitter size={24} className="text-gray-800 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-200" />
+            <X size={24} className="text-gray-800 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-200" />
           </a>
           <a href="https://linkedin.com/in/egmich92" target="_blank" rel="noopener noreferrer">
             <Linkedin size={24} className="text-gray-800 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-200" />

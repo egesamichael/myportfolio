@@ -28,7 +28,7 @@ export default function Header() {
           }`}
         >
           <ul className="flex flex-col lg:flex-row items-center gap-4 lg:gap-x-6 p-4 lg:p-0">
-            {["Home", "About Me", "Let's Talk"].map((item) => (
+            {["Home", "About Me", "Let's Talk", "Blog"].map((item) => (
               <li key={item} className="w-full lg:w-auto">
                 <a
                   href="#"
