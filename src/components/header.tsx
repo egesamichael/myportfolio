@@ -28,13 +28,18 @@ export default function Header() {
           }`}
         >
           <ul className="flex flex-col lg:flex-row items-center gap-4 lg:gap-x-6 p-4 lg:p-0">
-            {["Home", "About Me", "Let's Talk", "Blog"].map((item) => (
-              <li key={item} className="w-full lg:w-auto">
+            {[
+              { name: "Home", path: "/" },
+              { name: "About Me", path: "/about" },
+              { name: "Let's Talk", path: "#" },
+              { name: "Blog", path: "/blog" },
+            ].map((item) => (
+              <li key={item.name} className="w-full lg:w-auto">
                 <a
-                  href="#"
+                  href={item.path}
                   className="menu-item relative block text-base font-bold text-gray-800 dark:text-gray-300 hover:text-blue-700 dark:hover:text-blue-400 bg-transparent hover:bg-gray-100 dark:hover:bg-gray-800 px-4 py-2 rounded-md transition duration-200"
                 >
-                  {item}
+                  {item.name}
                 </a>
               </li>
             ))}
