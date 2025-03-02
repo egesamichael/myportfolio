@@ -22,7 +22,7 @@ export default function Hero() {
          Let's Talk
         </a>
         <a
-        href="#"
+        href="Egesa_CV.pdf"
         className="bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 px-6 py-3 rounded-md text-lg font-medium text-gray-800 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 transition-all duration-300 glow-button"
         >
          Download CV

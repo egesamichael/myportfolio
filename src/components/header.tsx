@@ -45,7 +45,7 @@ export default function Header() {
             ))}
             <li>
               <button className="bg-black dark:bg-blue-600 px-5 py-2 rounded-md text-white shadow-md hover:bg-gray-700 dark:hover:bg-blue-500 hover:shadow-lg transition duration-200">
-                Download CV
+               <a href="Egesa_CV.pdf">Download CV</a> 
               </button>
             </li>
             <li>
