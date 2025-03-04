@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
             <ul>
-              <li>Email: <a href="mailto:egesa@praisewebsolutions.com" className="text-blue-400 hover:text-blue-300">egesa@praisewebsolutions.com</a></li>
+              <li>Email: <a href="mailto:egesa@praisewebsolutions.com" className="text-blue-400 hover:text-blue-300">hello@egesamichael.dev</a></li>
               <li>Phone: <a href="tel:+256702485697" className="text-blue-400 hover:text-blue-300">+256 702 485 697</a></li>
               <li>Address: Kampala, Uganda</li>
             </ul>
@@ -21,17 +21,17 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
             <ul className="flex space-x-4">
               <li>
-                <a href="https://github.com/praisewebsolutions" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 text-2xl">
+                <a href="https://github.com/egesamichael" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 text-2xl">
                   <FaGithub />
                 </a>
               </li>
               <li>
-                <a href="https://linkedin.com/company/praisewebsolutions" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 text-2xl">
+                <a href="https://www.linkedin.com/in/egmich92/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 text-2xl">
                   <FaLinkedin />
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/praisewebsolutions" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 text-2xl">
+                <a href="https://x.com/egesamicheal" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 text-2xl">
                   <FaXTwitter />
                 </a>
               </li>
@@ -46,7 +46,7 @@ const Footer = () => {
                 <a href="/about" className="text-blue-400 hover:text-blue-300">About Me</a>
               </li>
               <li>
-                <a href="#" className="text-blue-400 hover:text-blue-300">CV</a>
+                <a href="Egesa_CV.pdf" className="text-blue-400 hover:text-blue-300">CV</a>
               </li>
               <li>
                 <a href="/contact" className="text-blue-400 hover:text-blue-300">Contact</a>
@@ -56,7 +56,7 @@ const Footer = () => {
 
           {/* Newsletter Signup */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Subscribe to Our Newsletter</h4>
+            <h4 className="text-lg font-semibold mb-4">Subscribe to My Newsletter</h4>
             <form action="#" method="POST" className="space-y-4">
               <input
                 type="email"

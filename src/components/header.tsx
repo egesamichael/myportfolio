@@ -31,7 +31,7 @@ export default function Header() {
             {[
               { name: "Home", path: "/" },
               { name: "About Me", path: "/about" },
-              { name: "Let's Talk", path: "#" },
+              { name: "Let's Talk", path: "/contact" },
               { name: "Blog", path: "/blog" },
             ].map((item) => (
               <li key={item.name} className="w-full lg:w-auto">
