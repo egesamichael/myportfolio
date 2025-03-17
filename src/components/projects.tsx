@@ -31,7 +31,7 @@ const projects = [
     description: "A WhatsApp chatbot for automating customer interactions and payment requests.",
     category: "App",
     technologies: ["Node.js", "Express", "GitHub"],
-    link: "https://github.com/yourusername/whatsapp-chatbot",
+    link: "#",
   },
   {
     title: "Print It App",
